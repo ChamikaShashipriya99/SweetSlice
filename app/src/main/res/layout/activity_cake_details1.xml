@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_beige"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Back and Search Icons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="50dp">
+
+            <ImageView
+                android:id="@+id/buttonBack1"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_back"
+                android:tint="@android:color/black" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/buttonSearch"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_search"
+                android:tint="@android:color/black" />
+        </LinearLayout>
+
+        <!-- Cake Image -->
+        <ImageView
+            android:id="@+id/cakeImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cake_chocolate" />
+
+        <!-- Cake Name & Rating -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/cakeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="25dp"
+                android:text="Chocalate Cake"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_star"
+                android:tint="@android:color/holo_orange_light" />
+
+            <TextView
+                android:id="@+id/cakeRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.8"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="4dp" />
+        </LinearLayout>
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/cakeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="The Chocolate Cake is a classic indulgence that satisfies every chocolate lover's cravings. Made with layers of soft, moist chocolate sponge, it's coated in a velvety chocolate frosting that melts in your mouth. Each bite offers a rich, deep cocoa flavor that’s perfectly balanced with just the right amount of sweetness—a timeless dessert for any occasion."
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- Portion Selection -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="100dp"
+            android:paddingTop="50dp"
+            android:text="Portion"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="100dp">
+
+            <ImageView
+                android:id="@+id/buttonDecrease1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_button"
+                android:padding="8dp"
+                android:src="@drawable/ic_minus"
+                android:tint="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textPortion1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="8dp"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/buttonIncrease1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded_button"
+                android:padding="8dp"
+                android:src="@drawable/ic_plus"
+                android:tint="@android:color/white" />
+        </LinearLayout>
+
+        <!-- Price and Order Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:paddingTop="100dp">
+
+            <TextView
+                android:id="@+id/textPrice1"
+                android:layout_width="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@color/dark_gray"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="Rs.2400/="
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/buttonOrderNow1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="12dp"
+                android:text="ORDER NOW"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
