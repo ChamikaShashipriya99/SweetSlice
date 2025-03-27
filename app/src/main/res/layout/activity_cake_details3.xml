@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_beige"
+    android:background="#FCE5D8"
     android:padding="16dp">
 
     <LinearLayout
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingTop="25dp"
-                android:text="Wedding Cake"
+                android:text="@string/wedding_cake"
                 android:textColor="@android:color/black"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -86,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="The Wedding Cake is a symbol of elegance and love, crafted to make your special day unforgettable. With its towering tiers of moist, flavorful cake layers, it's beautifully adorned with intricate designs, delicate fondant, and romantic floral accents. Whether classic vanilla, rich chocolate, or any flavor of your choice, this cake is as stunning as it is delicious—a masterpiece that adds a touch of sweetness to your happily ever after."
+            android:text="@string/the_wedding_cake_is_a_symbol_of_elegance_and_love_crafted_to_make_your_special_day_unforgettable_with_its_towering_tiers_of_moist_flavorful_cake_layers_it_s_beautifully_adorned_with_intricate_designs_delicate_fondant_and_romantic_floral_accents_whether_classic_vanilla_rich_chocolate_or_any_flavor_of_your_choice_this_cake_is_as_stunning_as_it_is_delicious_a_masterpiece_that_adds_a_touch_of_sweetness_to_your_happily_ever_after"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -98,7 +98,7 @@
             android:layout_marginTop="16dp"
             android:paddingLeft="100dp"
             android:paddingTop="50dp"
-            android:text="Portion"
+            android:text="@string/portion"
             android:textColor="@android:color/black"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -167,7 +167,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="12dp"
-                android:text="ORDER NOW"
+                android:text="@string/order_now"
                 android:textColor="@android:color/white"
                 android:textSize="16sp" />
         </LinearLayout>

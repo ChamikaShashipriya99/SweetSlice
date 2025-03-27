@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_beige"
+    android:background="#FCE5D8"
     android:padding="16dp">
 
     <LinearLayout
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingTop="25dp"
-                android:text="Black Forest Cake"
+                android:text="@string/black_forest_cake"
                 android:textColor="@android:color/black"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -86,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="The Black Forest Cake is a timeless dessert that delivers a symphony of flavors in every slice. Made with layers of rich, moist chocolate sponge cake, it's generously filled with luscious whipped cream and sweet-tart cherries. Topped with smooth chocolate shavings and vibrant cherries, this cake is a decadent treat that perfectly balances sweetness and a hint of fruity tang."
+            android:text="@string/the_black_forest_cake_is_a_timeless_dessert_that_delivers_a_symphony_of_flavors_in_every_slice_made_with_layers_of_rich_moist_chocolate_sponge_cake_it_s_generously_filled_with_luscious_whipped_cream_and_sweet_tart_cherries_topped_with_smooth_chocolate_shavings_and_vibrant_cherries_this_cake_is_a_decadent_treat_that_perfectly_balances_sweetness_and_a_hint_of_fruity_tang"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />

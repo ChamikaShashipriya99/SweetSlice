@@ -51,7 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingBottom="10dp"
-                android:text="Name :"
+                android:text="@string/name"
                 android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
@@ -64,7 +64,7 @@
                 android:enabled="false"
                 android:hint="Name"
                 android:padding="15dp"
-                android:text="Chamika Shashipriya"
+                android:text="@string/chamika_shashipriya"
                 android:textColor="#000000"
                 android:textSize="18sp"/>
 
@@ -74,7 +74,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="E-mail :"
+                android:text="@string/e_mail"
                 android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="bold"/>
@@ -87,7 +87,7 @@
                 android:enabled="false"
                 android:hint="Email"
                 android:padding="15dp"
-                android:text="chamikashashipriya3@gmail.com"
+                android:text="@string/chamikashashipriya3_gmail_com"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -97,7 +97,7 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
-                android:text="Adderess :"
+                android:text="@string/adderess"
                 android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -108,9 +108,9 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit_text_background"
                 android:enabled="false"
-                android:hint="Delivery Address"
+                android:hint="@string/delivery_address"
                 android:padding="15dp"
-                android:text="Ambalangoda, Galle, Sri-Lanka"
+                android:text="@string/ambalangoda_galle_sri_lanka"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
@@ -147,7 +147,7 @@
                 android:focusable="true"
                 android:paddingTop="20dp"
                 android:paddingBottom="10dp"
-                android:text="Payment History"
+                android:text="@string/payment_history"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -161,7 +161,7 @@
                 android:focusable="true"
                 android:paddingTop="20dp"
                 android:paddingBottom="10dp"
-                android:text="Order history"
+                android:text="@string/order_history"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -181,7 +181,7 @@
                     android:layout_marginEnd="10dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/purple"
-                    android:text="Edit Profile"
+                    android:text="@string/edit_profile"
                     app:cornerRadius="10dp"
                     android:textSize="18sp"
                     android:textColor="@color/white"/>
@@ -192,7 +192,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="@color/red"
-                    android:text="Log out"
+                    android:text="@string/log_out"
                     android:textColor="@color/white"
                     android:textSize="18sp"
                     app:cornerRadius="10dp" />

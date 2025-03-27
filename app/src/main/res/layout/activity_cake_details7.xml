@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_beige"
+    android:background="#FCE5D8"
     android:padding="16dp">
 
     <LinearLayout
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingTop="25dp"
-                android:text="Coffee Cake"
+                android:text="@string/coffee_cake"
                 android:textColor="@android:color/black"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -75,7 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:text="4.5"
+                android:text="@string/_4_5"
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -86,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="Coffee Cake is a soft, moist, and buttery cake that is often topped with a crumbly streusel topping made from cinnamon, sugar, and butter. Despite its name, it doesn’t usually contain coffee; instead, it’s meant to be enjoyed with a cup of coffee as a delicious breakfast or snack. Some variations do include coffee flavor in the batter or icing."
+            android:text="@string/coffee_cake_is_a_soft_moist_and_buttery_cake_that_is_often_topped_with_a_crumbly_streusel_topping_made_from_cinnamon_sugar_and_butter_despite_its_name_it_doesn_t_usually_contain_coffee_instead_it_s_meant_to_be_enjoyed_with_a_cup_of_coffee_as_a_delicious_breakfast_or_snack_some_variations_do_include_coffee_flavor_in_the_batter_or_icing"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -98,7 +98,7 @@
             android:layout_marginTop="16dp"
             android:paddingLeft="100dp"
             android:paddingTop="50dp"
-            android:text="Portion"
+            android:text="@string/portion"
             android:textColor="@android:color/black"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -157,7 +157,7 @@
                 android:background="@color/dark_gray"
                 android:gravity="center"
                 android:padding="12dp"
-                android:text="Rs.5000/="
+                android:text="@string/rs_5000"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
@@ -167,7 +167,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="12dp"
-                android:text="ORDER NOW"
+                android:text="@string/order_now"
                 android:textColor="@android:color/white"
                 android:textSize="16sp" />
         </LinearLayout>

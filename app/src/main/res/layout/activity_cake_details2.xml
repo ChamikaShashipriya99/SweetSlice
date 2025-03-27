@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_beige"
+    android:background="#FCE5D8"
     android:padding="16dp">
 
     <LinearLayout
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingTop="25dp"
-                android:text="Happy Birthday Icing Cake"
+                android:text="@string/happy_birthday_icing_cake"
                 android:textColor="@android:color/black"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -86,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="The Happy Birthday Cake is a delightful centerpiece for any celebration! Baked to perfection with soft, fluffy layers, it’s adorned with creamy, colorful frosting and festive decorations that bring joy to every occasion. Topped with sprinkles, candles, or a personal touch, this cake is as sweet and memorable as the wishes it represents—a delicious way to make any birthday extra special!"
+            android:text="@string/the_happy_birthday_cake_is_a_delightful_centerpiece_for_any_celebration_baked_to_perfection_with_soft_fluffy_layers_it_s_adorned_with_creamy_colorful_frosting_and_festive_decorations_that_bring_joy_to_every_occasion_topped_with_sprinkles_candles_or_a_personal_touch_this_cake_is_as_sweet_and_memorable_as_the_wishes_it_represents_a_delicious_way_to_make_any_birthday_extra_special"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -98,7 +98,7 @@
             android:layout_marginTop="16dp"
             android:paddingLeft="100dp"
             android:paddingTop="50dp"
-            android:text="Portion"
+            android:text="@string/portion"
             android:textColor="@android:color/black"
             android:textSize="16sp"
             android:textStyle="bold" />

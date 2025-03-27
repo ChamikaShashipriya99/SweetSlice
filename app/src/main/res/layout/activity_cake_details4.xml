@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_beige"
+    android:background="#FCE5D8"
     android:padding="16dp">
 
     <LinearLayout
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingTop="25dp"
-                android:text="Red Velvet Cake"
+                android:text="@string/red_velvet_cake"
                 android:textColor="@android:color/black"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -75,7 +75,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:text="4.9"
+                android:text="@string/_4_9"
                 android:textColor="@android:color/black"
                 android:textSize="16sp" />
         </LinearLayout>
@@ -86,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="Red Velvet Cake is a classic, visually stunning dessert known for its deep red color, soft texture, and rich, velvety taste. This cake is made with a blend of cocoa powder, buttermilk, and vinegar, giving it a slightly tangy and chocolaty flavor. The vibrant red hue is traditionally achieved using red food coloring or natural alternatives like beetroot powder."
+            android:text="@string/red_velvet_cake_is_a_classic_visually_stunning_dessert_known_for_its_deep_red_color_soft_texture_and_rich_velvety_taste_this_cake_is_made_with_a_blend_of_cocoa_powder_buttermilk_and_vinegar_giving_it_a_slightly_tangy_and_chocolaty_flavor_the_vibrant_red_hue_is_traditionally_achieved_using_red_food_coloring_or_natural_alternatives_like_beetroot_powder"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -98,7 +98,7 @@
             android:layout_marginTop="16dp"
             android:paddingLeft="100dp"
             android:paddingTop="50dp"
-            android:text="Portion"
+            android:text="@string/portion"
             android:textColor="@android:color/black"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -157,7 +157,7 @@
                 android:background="@color/dark_gray"
                 android:gravity="center"
                 android:padding="12dp"
-                android:text="Rs.3000/="
+                android:text="@string/rs_3000"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
@@ -167,7 +167,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="12dp"
-                android:text="ORDER NOW"
+                android:text="@string/order_now"
                 android:textColor="@android:color/white"
                 android:textSize="16sp" />
         </LinearLayout>

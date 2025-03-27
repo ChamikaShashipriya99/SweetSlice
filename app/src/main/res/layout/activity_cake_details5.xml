@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_beige"
+    android:background="#FCE5D8"
     android:padding="16dp">
 
     <LinearLayout
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingTop="25dp"
-                android:text="Carrot Cake"
+                android:text="@string/carrot_cake"
                 android:textColor="@android:color/black"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -86,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="Carrot Cake is a moist, spiced cake made with grated carrots, giving it a naturally sweet and tender texture. The carrots blend seamlessly into the batter, adding moisture without overpowering the flavor. It is often enhanced with warm spices like cinnamon, nutmeg, and ginger, creating a rich and aromatic taste."
+            android:text="@string/carrot_cake_is_a_moist_spiced_cake_made_with_grated_carrots_giving_it_a_naturally_sweet_and_tender_texture_the_carrots_blend_seamlessly_into_the_batter_adding_moisture_without_overpowering_the_flavor_it_is_often_enhanced_with_warm_spices_like_cinnamon_nutmeg_and_ginger_creating_a_rich_and_aromatic_taste"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />
@@ -157,7 +157,7 @@
                 android:background="@color/dark_gray"
                 android:gravity="center"
                 android:padding="12dp"
-                android:text="Rs.2400/="
+                android:text="@string/rs_2400"
                 android:textColor="@android:color/white"
                 android:textSize="18sp" />
 
@@ -167,7 +167,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="12dp"
-                android:text="ORDER NOW"
+                android:text="@string/order_now"
                 android:textColor="@android:color/white"
                 android:textSize="16sp" />
         </LinearLayout>

@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_beige"
+    android:background="#FCE5D8"
     android:padding="16dp">
 
     <LinearLayout
@@ -59,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:paddingTop="25dp"
-                android:text="Chocalate Cake"
+                android:text="@string/chocalate_cake"
                 android:textColor="@android:color/black"
                 android:textSize="22sp"
                 android:textStyle="bold" />
@@ -86,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="The Chocolate Cake is a classic indulgence that satisfies every chocolate lover's cravings. Made with layers of soft, moist chocolate sponge, it's coated in a velvety chocolate frosting that melts in your mouth. Each bite offers a rich, deep cocoa flavor that’s perfectly balanced with just the right amount of sweetness—a timeless dessert for any occasion."
+            android:text="@string/the_chocolate_cake_is_a_classic_indulgence_that_satisfies_every_chocolate_lover_s_cravings_made_with_layers_of_soft_moist_chocolate_sponge_it_s_coated_in_a_velvety_chocolate_frosting_that_melts_in_your_mouth_each_bite_offers_a_rich_deep_cocoa_flavor_that_s_perfectly_balanced_with_just_the_right_amount_of_sweetness_a_timeless_dessert_for_any_occasion"
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="16sp" />

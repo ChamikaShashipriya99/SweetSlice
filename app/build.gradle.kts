@@ -7,6 +7,7 @@ android {
     namespace = "com.example.sweetslice"
     compileSdk = 35
 
+
     defaultConfig {
         applicationId = "com.example.sweetslice"
         minSdk = 21
@@ -60,4 +61,11 @@ dependencies {
     implementation("androidx.viewpager2:viewpager2:1.0.0")
     implementation("com.google.android.material:material:1.8.0")
 }
+
+android {
+    buildFeatures {
+        viewBinding = true
+    }
+}
+
 

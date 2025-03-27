@@ -1,5 +1,6 @@
 package com.example.sweetslice
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
@@ -45,7 +46,8 @@ class CakeDetailsActivity7 : AppCompatActivity() {
 
         // Order Now button click
         buttonOrderNow.setOnClickListener {
-            // Handle order functionality (navigate or show a toast)
+            val intent = Intent(this, PaymentActivity::class.java)
+            startActivity(intent)
         }
     }
 

@@ -16,7 +16,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="cursive"
         android:paddingTop="25dp"
-        android:text="SweetSlice"
+        android:text="@string/sweetslice"
         android:textColor="#3E2723"
         android:textSize="32sp"
         android:textStyle="bold"
@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="Order Your Favorite Cake !!"
+        android:text="@string/order_your_favorite_cake"
         android:textColor="#5D4037"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -139,7 +139,7 @@
                     android:paddingTop="8dp"
                     android:paddingEnd="20dp"
                     android:paddingBottom="8dp"
-                    android:text="All"
+                    android:text="@string/all"
                     android:textColor="#FFFFFF"
                     android:textSize="16sp" />
             </androidx.cardview.widget.CardView>
@@ -160,7 +160,7 @@
                     android:paddingTop="8dp"
                     android:paddingEnd="20dp"
                     android:paddingBottom="8dp"
-                    android:text="Combos"
+                    android:text="@string/combos"
                     android:textColor="#757575"
                     android:textSize="16sp" />
             </androidx.cardview.widget.CardView>
@@ -181,7 +181,7 @@
                     android:paddingTop="8dp"
                     android:paddingEnd="20dp"
                     android:paddingBottom="8dp"
-                    android:text="Sliders"
+                    android:text="@string/sliders"
                     android:textColor="#757575"
                     android:textSize="16sp" />
             </androidx.cardview.widget.CardView>
@@ -201,7 +201,7 @@
                     android:paddingTop="8dp"
                     android:paddingEnd="20dp"
                     android:paddingBottom="8dp"
-                    android:text="Classic"
+                    android:text="@string/classic"
                     android:textColor="#757575"
                     android:textSize="16sp" />
             </androidx.cardview.widget.CardView>
