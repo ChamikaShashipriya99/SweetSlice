@@ -1,10 +1,7 @@
-The Sweet Slice App is a modern and user-friendly mobile application designed for cake lovers who want to explore, customize, and purchase cakes online with ease. The app provides 
-a seamless shopping experience, allowing users to browse a variety of cakes, personalize their orders, make secure payments, and track their purchases—all in a beautifully 
+The Sweet Slice App is a modern and user-friendly mobile application designed for cake lovers who want to explore, customize, and purchase cakes online with ease. The appprovides a seamless shopping experience, allowing users to browse a variety of cakes, personalize their orders, make secure payments, and track their purchases—all in a beautifully 
 crafted interface.
 
-This application is ideal for customers looking for custom-made cakes for birthdays, weddings, anniversaries, and other special occasions. With an intuitive design and smooth 
-navigation, Sweet Slice ensures that users can order their favourite cakes effortlessly while also enjoying an engaging user experience.
-There are some key features such as,
+This application is ideal for customers looking for custom-made cakes for birthdays, weddings, anniversaries, and other special occasions. With an intuitive design and smooth navigation, Sweet Slice ensures that users can order their favourite cakes effortlessly while also enjoying an engaging user experience.There are some key features such as,
 
 1.Onboarding & Authentication.
 2.Home & Product Browsing.
